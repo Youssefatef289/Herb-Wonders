@@ -23,8 +23,8 @@ body {
   /* justify-content: space-around;
             align-items: center;
             padding: 20px; */
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
+  background:black;
+  color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,11 +33,11 @@ body {
 
 .navbar-brand {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 
 .nav-link {
-  color: black;
+  color: white;
 }
 
 .nav-link:hover {
@@ -47,6 +47,14 @@ body {
   color: white;
   border-radius: 5px;
 }
+
+.navbar-toggler {
+  background-color: white;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
 
 /* nav bar */
 /* header */
@@ -63,6 +71,14 @@ body {
 .button:hover {
   background-color: black;
   transition: 0.5s;
+}
+
+.py-4 {
+  margin-top: 200px;
+}
+
+.py-5 {
+  margin-top: 100px
 }
 
 /* end header */
@@ -121,6 +137,8 @@ h2 {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
+
+
 .label-top {
   position: absolute;
   background-color: #8bc34a;
@@ -499,3 +517,8 @@ form.contFrm {
     font-size: 16px;
   }
 }
+
+
+/* Shopping page */
+
+
